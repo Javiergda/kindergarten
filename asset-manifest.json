@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kindergarten/static/css/main.e45d90b8.css",
-    "main.js": "/kindergarten/static/js/main.f0c1ff79.js",
+    "main.js": "/kindergarten/static/js/main.185c74ed.js",
     "static/media/VarelaRound-Regular.ttf": "/kindergarten/static/media/VarelaRound-Regular.3b7ffe17ffd5b4e3c72f.ttf",
     "static/media/person2.jpg": "/kindergarten/static/media/person2.fba992606286b4ce87df.jpg",
     "static/media/child3.jpg": "/kindergarten/static/media/child3.9fab65cbd0d0622b8aba.jpg",
@@ -16,10 +16,10 @@
     "static/media/bambi3.jpg": "/kindergarten/static/media/bambi3.7b52952104921e65fd70.jpg",
     "index.html": "/kindergarten/index.html",
     "main.e45d90b8.css.map": "/kindergarten/static/css/main.e45d90b8.css.map",
-    "main.f0c1ff79.js.map": "/kindergarten/static/js/main.f0c1ff79.js.map"
+    "main.185c74ed.js.map": "/kindergarten/static/js/main.185c74ed.js.map"
   },
   "entrypoints": [
     "static/css/main.e45d90b8.css",
-    "static/js/main.f0c1ff79.js"
+    "static/js/main.185c74ed.js"
   ]
 }
