@@ -38,7 +38,7 @@ export const HeaderMedium = ({ context, hover, setHover }) => {
                     </li>
                 </NavLink>
                 <li className='empty'></li>
-                <NavLink className='nav-item' to="login"
+                {/* <NavLink className='nav-item' to="login"
                     onMouseEnter={() => setHover('Log-out')}
                     onMouseLeave={() => setHover(email)}
                     onClick={() => {
@@ -49,7 +49,7 @@ export const HeaderMedium = ({ context, hover, setHover }) => {
                     <li>
                         <span>{email ? hover : 'Login'}</span>
                     </li>
-                </NavLink>
+                </NavLink> */}
             </ul>
         </nav >
     )

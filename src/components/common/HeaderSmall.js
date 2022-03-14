@@ -55,7 +55,7 @@ export const HeaderSmall = ({ context, hover, setHover }) => {
                         <span>Contacto</span>
                     </li>
                 </NavLink>
-                <NavLink className='nav-link' to="login"
+                {/* <NavLink className='nav-link' to="login"
                     onMouseEnter={() => setHover('Log-out')}
                     onMouseLeave={() => setHover(email)}
                     onClick={() => {
@@ -67,7 +67,7 @@ export const HeaderSmall = ({ context, hover, setHover }) => {
                         <img src={rabbit} height="20px" alt='rabbit' />
                         <span >{email ? hover : 'Login'}</span>
                     </li>
-                </NavLink>
+                </NavLink> */}
             </ul>
         </nav>
     )
