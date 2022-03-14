@@ -1,0 +1,49 @@
+.filterStudents_main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .form_filter{
+
+        display: flex;
+        justify-content: center;
+        width: 80%;
+
+        input{
+            width: 100%;
+            height: 30px;
+            margin-top: 5px;
+            padding-left: 7px;
+            border-radius: 5px;
+            // border:1px solid $purple-semitransparent;
+
+            border:1px solid grey;
+            // background-color: $purple-transparent;
+            // color: $purple;
+        }
+
+        label{
+            margin-left: 20px;
+            width: 400px;
+        }
+
+        .button{
+            background-color: $purple-semitransparent;
+            color: white;
+            border:1px solid black;
+            height: 30px;
+            width: 80px;
+            margin-top: 25px;
+            margin-left: 5px;
+            box-shadow: -1px 1px #ccc ;
+            transition: all 0.4s;
+            &:hover{
+                background-color: $purple;
+                color: white;
+            }
+        }
+    }
+}

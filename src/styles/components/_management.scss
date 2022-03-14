@@ -1,0 +1,28 @@
+.management_main{
+    .boxButtonSelector{
+        display: flex;
+        justify-content: center;
+        .buttonSelector{
+            font-size: 1.5rem;
+            background-color:white;
+            color: #ccc;
+            border:none;
+            border-radius: 5px;
+            height: 30px;
+            margin: 15px 5px 15px 15px;
+            transition: all 0.4s;
+            &:hover{
+                color: $yellow;
+                font-size: 1.7rem;
+            }
+        }
+
+        .buttonSelected{
+            font-size: 1.7rem;
+            background-color:white;
+            color: $yellow;
+            box-shadow: none ;
+            border: none;
+        }
+    }
+}

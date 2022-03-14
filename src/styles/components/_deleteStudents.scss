@@ -1,0 +1,105 @@
+.delete_main{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 40px;
+    overflow: scroll;
+
+
+
+    .title{
+
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        width: 460px; // da margen al titulo
+        
+        h3{
+            span{
+                text-align: center;
+            }
+            width: 98%;
+            margin: 5px 0 5px 0;
+            color: $purple;
+            }
+    }
+
+    .wrapper{
+
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        max-width: 800px;
+        max-height: 300px;
+        overflow: scroll;
+
+        border:1px solid $purple-transparent;
+
+        // background-color: $purple-transparent;
+
+        .wrapper2{
+
+            display: flex;
+            justify-content: left;
+            // border:1px solid $purple-semitransparent;
+            border-bottom: 1px solid #ccc;
+            // background-color: $purple-transparent;
+            background-color: white;
+            // border-radius: 3px;
+            padding:2px;
+            margin:2px;
+            min-width: 580px;
+            // color: $purple;
+
+            .name,.surname,.date,.phone{
+                // overflow: hidden;
+            }
+            .name{
+                padding:2px 0 0 2px;
+                min-width: 100px;
+            }
+            .surname{
+                min-width: 100px;
+                padding-top: 2px;
+            }
+            .date{
+                min-width: 80px;
+                padding-top: 2px;
+            }
+            .phone{
+                min-width: 80px;
+                padding-top: 2px;
+                
+            }
+            .email{
+                min-width: 160px;
+                padding-top: 2px;
+                
+            }
+
+            .user_type{
+                min-width: 80px;
+                padding-top: 2px;
+                
+            }
+
+            button{
+                // background-color: $purple-transparent;
+                // color: white;
+                // background-color: white;
+
+                border:1px solid $purple-semitransparent;
+                border-radius: 5px;
+                margin: 0px 2px 0px 5px;
+            }
+        }
+
+        .title{
+            background-color: $purple-semitransparent;
+            color: white;
+        }
+    }
+}

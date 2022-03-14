@@ -1,0 +1,43 @@
+// -------  COLORS  ------- //
+
+$yellow:#ffae00;
+$yellow-semitransparent:#ffae0091;
+$yellow-transparent:#ffae004d;
+$purple:#3f3a70;
+$purple-semitransparent:#3f3a709f;
+$purple-transparent:#3f3a7017;
+
+
+// ------  MIXINS  ------- //
+
+@mixin backColorDiv ($child){
+    div{
+        &:nth-child(#{$child}){
+            background-color: $yellow;
+            color:white;
+            border-color: black;
+        }
+    }
+}
+
+@mixin backColorButton($child){
+    div{
+        &:nth-child(#{$child}){
+            button{
+                background-color: $purple-semitransparent;
+                color:white;
+                border-color: black;
+            }
+        }
+    }
+}
+
+
+// ------  BREAKPOINTS  ------- //
+
+$xSmall: 570px;
+$small: 770px;
+$medium: 900px;
+
+
+

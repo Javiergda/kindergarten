@@ -1,0 +1,38 @@
+.Services_main{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+ 
+    .wrap{
+        max-width: 1080px;
+        h1{
+            margin-top: 20px;
+        }
+
+        h2{
+            margin-top: 25px;
+        }
+        
+        p{
+            color: gray;
+            padding:15px 5px 10px 20px;
+        }
+        
+        .boxs{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        
+            .numbers{
+                color:$yellow ;
+                font-size: 1.7rem;
+            }
+        
+            .box-text{
+                padding:15px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

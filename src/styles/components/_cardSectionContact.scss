@@ -1,0 +1,54 @@
+.cardSectionContact_main{
+        // background-color: $purple;
+        padding:20px;
+
+        h1{
+        text-align: center; 
+        color: white;          
+        }
+
+    .cards_main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            margin: 0px 35px 0px 25px;
+            // border-radius: 50px;
+            width: 260px;
+            height: 410px;
+            cursor: pointer;
+            text-align: center;
+
+            h5{
+                margin-top:20px;
+                font-size: 1.3rem;
+
+                // background-color: blue;
+            }
+
+            p,span{
+                padding: 7px;
+                color: gray;
+
+                // background-color: red;
+            }
+
+            span{
+                // text-align: center;
+                color: $yellow;
+            }
+        }
+    
+        img{
+            border-radius: 50%;
+            width: 100%;
+            height: 250px; 
+        }
+    }
+}
+
