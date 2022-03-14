@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kindergarten/static/css/main.e45d90b8.css",
+    "main.js": "/kindergarten/static/js/main.f0c1ff79.js",
+    "static/media/VarelaRound-Regular.ttf": "/kindergarten/static/media/VarelaRound-Regular.3b7ffe17ffd5b4e3c72f.ttf",
+    "static/media/person2.jpg": "/kindergarten/static/media/person2.fba992606286b4ce87df.jpg",
+    "static/media/child3.jpg": "/kindergarten/static/media/child3.9fab65cbd0d0622b8aba.jpg",
+    "static/media/person3.jpg": "/kindergarten/static/media/person3.e926b03522d908c9f9dc.jpg",
+    "static/media/bambi1.jpg": "/kindergarten/static/media/bambi1.7d5f3c5fea332a1989e1.jpg",
+    "static/media/person1.jpg": "/kindergarten/static/media/person1.65a377d2e222587120ef.jpg",
+    "static/media/logo.jpg": "/kindergarten/static/media/logo.081a8f662f62fbdff987.jpg",
+    "static/media/child2.jpg": "/kindergarten/static/media/child2.213bb1068bd31f681753.jpg",
+    "static/media/child1.jpg": "/kindergarten/static/media/child1.8af09a26d4a1829140ae.jpg",
+    "static/media/bambi4.jpg": "/kindergarten/static/media/bambi4.9405244261e0a0619795.jpg",
+    "static/media/bambi2.jpg": "/kindergarten/static/media/bambi2.a266b2f7d5386a48c710.jpg",
+    "static/media/bambi3.jpg": "/kindergarten/static/media/bambi3.7b52952104921e65fd70.jpg",
+    "index.html": "/kindergarten/index.html",
+    "main.e45d90b8.css.map": "/kindergarten/static/css/main.e45d90b8.css.map",
+    "main.f0c1ff79.js.map": "/kindergarten/static/js/main.f0c1ff79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45d90b8.css",
+    "static/js/main.f0c1ff79.js"
+  ]
+}
